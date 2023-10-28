@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabina', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+.logo img{
+
+   height: 50px;
+}
+
+.logo h1 {
+    margin: 10px;
+}
+
+.logo1-inicio {
+    height: 80px;
+}
+
+.df-ul{
+    font-size: 1.5rem;
+}
+
+.nav-item a:hover {
+    color: rgb(245, 215, 46);
+    transform: scale(1.03);
+    transition: all 0.4s ease;
+    text-decoration: none;
+}
+
+.patz {
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.patz-inicio {
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: auto;
+    
+}
+
+/* FIN DE HEADER */
+
+/* MAIN INDEX*/
+.body-index {
+    background-color: rgb(19, 18, 18);
+}
+
+#inicio {
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+}
+
+video {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.link-menu {
+    padding-top: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    padding-top: 200px;
+
+}
+
+.link-menu h2 {
+    font-size: 6rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.62);
+
+}
+
+.link-menu p {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.62);
+}
+
+.link-menu button {
+    display: inline-block;
+    border: none;
+    height: 70px;
+    border-radius: 20px;
+    padding: 0px 0;
+    width: 200px;
+    background-color: rgb(228, 228, 27);
+    font-size: 2.4rem;
+    color: #030303;
+    font-weight: 800;
+    margin: 20px 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    box-shadow: 2px 14px 114px 8px rgba(0,0,0,1);
+    -webkit-box-shadow: 2px 14px 114px 8px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 14px 114px 8px rgba(0,0,0,1);
+}
+
+
+.chef img{
+    height: 500px;
+    margin-top: 100px;
+  
+}
+
+.chef-titulo{
+    margin-top: 100px;
+    font-size: 5rem;
+    /* text-align: center; */
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.62);
+}
+
+
+
+
+/* FIN DE MAIN INDEX */
+
+/* MAIN BURGUERS */
+
+.bannerburger {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 130px 80px 0 80px;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 13px 9px 8px rgb(218, 212, 212);
+}
+
+.burger-menu {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.burger-menu .carta {
+    width: 330px;
+    height: 530px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    margin-bottom: 10px;
+}
+
+.burger-menu .carta:hover {
+    transform: translatey(-4px);
+    box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.39);
+
+}
+
+.burger-menu .carta img {
+    width: 330px;
+    height: 300px;
+}
+
+.burger-menu .carta h2 {
+    font-weight: 500;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    margin-top: 10px;
+
+}
+
+.burger-menu .carta p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.burger-menu .carta a {
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 128, 0);
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.bannerburger-entradas {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 80px 0 80px;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 13px 9px 8px rgb(218, 212, 212);
+}
+
+.burger-menu-entradas {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0px;
+
+
+}
+
+.burger-menu-entradas .carta {
+    width: 230px;
+    height: 320px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    margin-bottom: 10px;
+}
+
+.burger-menu-entradas .carta:hover {
+    transform: translatey(-4px);
+    box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.39);
+
+}
+
+.burger-menu-entradas .carta img {
+    width: 200px;
+    height: 150px;
+}
+
+.burger-menu-entradas .carta h2 {
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+
+}
+
+.burger-menu-entradas .carta p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.burger-menu-entradas .carta a {
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 128, 0);
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+/* FIN MAIN BURGERS */
+
+
+/* MAIN SUCURSALES */
+.bannerburger-sucursal {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 130px 80px 0 80px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 13px 9px 8px rgb(218, 212, 212);
+}
+
+.sucursal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sucursal iframe {
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+/* FIN MAIN SUCURSALES */
+
+/* MAIN QUIENES SOMOS */
+.historia {
+    display: grid;
+    align-items: center;
+    margin-top: 150px;
+}
+
+/* FIN MAIN QUIENES SOMOS */
+
+/* MAIN TRABAJO*/
+
+.formulario{
+    margin: 100px;
+    padding: 50px;
+    padding-bottom: 70px;
+    background-color: #0e0d0d;
+    color:#fafafa;
+    border-radius: 20px;
+}
+
+.formulario-h2{
+    text-align: center;  
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.formulario-p{
+    text-align: center;
+}
+
+.formulario-email{
+    margin-top: 10px;
+}
+
+
+.formulario-archivo{
+    margin-top: 30px;
+}
+
+.formulario-boton{
+    margin-top: 50px;
+    
+}
+
+/* FIN MAIN TRABAJO */
+
+/* FOOTER */
+
+.logo-footer {
+    height: 80px;
+
+}
+
+
+.h2-footer {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.93);
+}
+
+.subir {
+    height: 37px;
+    width: 37px;
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    border: rgb(255, 255, 255) solid 0.5px;
+
+}
+
+/* FIN DE FOOTER */
+
+
+
+
+
