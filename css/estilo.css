@@ -35,7 +35,6 @@
 .nav-item a {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2rem;
-
 }
 
 .nav-item a:hover {
@@ -86,7 +85,6 @@ video {
 }
 
 .link-menu {
-    padding-top: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,7 +93,6 @@ video {
     margin: auto;
     position: relative;
     z-index: 2;
-    padding-top: 200px;
 
 }
 
@@ -117,29 +114,89 @@ video {
     text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.62);
 }
 
-.link-menu button {
-    display: inline-block;
-    border: none;
-    height: 70px;
-    border-radius: 20px;
-    padding: 0px 0;
-    width: 200px;
-    background-color: rgb(228, 228, 27);
-    font-size: 2.4rem;
-    color: #030303;
-    font-weight: 800;
-    margin: 20px 0px;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', sans-serif;
-    box-shadow: 2px 14px 114px 8px rgba(0, 0, 0, 1);
-    -webkit-box-shadow: 2px 14px 114px 8px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 2px 14px 114px 8px rgba(0, 0, 0, 1);
+.link-menu a{
+    text-decoration: none;
 }
 
-.link-menu button:hover {
+/* boton del video */
+.link-menu button {
+    padding: 15px 60px;
+    background: rgb(5, 5, 5);
+    border: 2px solid #ffff00;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e5ff00;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    transition: all 0.5s;
+
+  }
+  
+  .link-menu button:hover {
+    color: #0c071e;
+    font-weight: bold;
     opacity: 90%;
-}
+  }
+  
+  .link-menu button span {
+    transition: all 0.5s;
+    z-index: -1;
+  }
+  
+  .link-menu button span:nth-child(1), 
+  .link-menu button span:nth-child(2), 
+  .link-menu button span:nth-child(3), 
+  .link-menu button span:nth-child(4) {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background-color: #edff00
+  }
+  
+  .link-menu button span:nth-child(1) {
+    top: -100%;
+    left: 0%;
+    right: 0;
+  }
+  
+  .link-menu button:hover span:nth-child(1) {
+    top: 0%;
+  }
+  
+  .link-menu button span:nth-child(2) {
+    top: 10px;
+    right: 100%;
+  }
+  
+  .link-menu button:hover span:nth-child(2) {
+    right: 0;
+  }
+  
+  .link-menu button span:nth-child(3) {
+    top: 20px;
+    left: 100%;
+    right: 0;
+  }
+  
+  .link-menu button:hover span:nth-child(3) {
+    left: 0;
+  }
+  
+  .link-menu button span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+  }
+  
+  .link-menu button:hover span:nth-child(4) {
+    bottom: 0;
+  }
+/* boton del video */
+/* .link-menu button:hover {
+    opacity: 90%;
+} */
 
 
 .chef img {
@@ -549,10 +606,7 @@ video {
     text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.93);
 }
 
-/* FIN DE FOOTER */
-
-
-  .wrapper {
+.wrapper {
     display: inline-flex;
     list-style: none;
     height: 120px;
@@ -637,4 +691,12 @@ video {
     background: #E4405F;
     color: #fff;
   }
+
+/* FIN DE FOOTER */
+
+
   
+  
+/*  */
+
+/*  */
