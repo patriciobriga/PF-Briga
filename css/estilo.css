@@ -263,19 +263,15 @@ video {
 
 /* media queries */
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 470px) {
 
     .patz-inicio {
         font-size: 5px;
     }
 
 
-    .logo img {
-        display: none;
-    }
-
     .chef img {
-        height: 300px;
+        height: 400px;
         width: 300px;
         margin-top: 0;
     }
@@ -301,11 +297,6 @@ video {
 
     .link-menu p {
         display: none;
-    }
-
-    .link-menu button {
-        width: 150px;
-        padding: 20px;
     }
 
     @keyframes show {
