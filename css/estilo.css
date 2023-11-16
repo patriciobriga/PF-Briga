@@ -10,7 +10,7 @@
 ::selection {
     color: rgb(255, 230, 0);
     background: rgb(43, 43, 42)0;
-  }
+}
 
 /* HEADER */
 
@@ -62,8 +62,8 @@
 
 }
 
-.nav-item .dropdown-item{
-font-size: 1.3rem;
+.nav-item .dropdown-item {
+    font-size: 1.3rem;
 }
 
 /* FIN DE HEADER */
@@ -263,11 +263,41 @@ video {
     animation-fill-mode: both;
 }
 
+/* fin boton del video */
+
+.gify {
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.titulo-cumple {
+    margin-top: 30px;
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.texto-cumple {
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.cartas-index {
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
 /* media queries */
+
+@media screen and (max-width: 758px){
+    .chef{
+        display: none;
+    }
+
+}
 
 @media screen and (max-width: 470px) {
 
-    .desplegable h5 {
+    .desplegable h3 {
         font-size: 3rem;
     }
 
@@ -353,6 +383,10 @@ video {
 
 /* MAIN BURGUERS */
 
+.menu-completo {
+    margin-bottom: 150px;
+}
+
 .bannerburger {
     display: flex;
     text-align: center;
@@ -371,10 +405,12 @@ video {
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 .burger-menu .carta {
-    width: 330px;
+    width: 300px;
     height: 530px;
     border-radius: 10px;
     overflow: hidden;
@@ -393,7 +429,7 @@ video {
 }
 
 .burger-menu .carta img {
-    width: 330px;
+    object-fit: cover;
     height: 300px;
 }
 
@@ -466,7 +502,7 @@ video {
 }
 
 .burger-menu-entradas .carta img {
-    width: 200px;
+   object-fit: cover;
     height: 150px;
 }
 
@@ -501,7 +537,7 @@ video {
 
 
 /* MAIN SUCURSALES */
-.encontranos{
+.encontranos {
     color: rgb(255, 255, 255);
     display: flex;
     text-align: center;
@@ -562,6 +598,7 @@ video {
 /* MAIN QUIENES SOMOS */
 .fundador-img {
     object-fit: cover;
+    border-radius: 100px;
 }
 
 .carru {
@@ -576,11 +613,34 @@ video {
     object-fit: cover;
 }
 
+.fondo-local {
+    background-color: rgb(0, 0, 0);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%231B001B' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%233A003A'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.local-img {
+    min-width: 100%;
+}
+
+.texto-local {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    color: rgb(207, 201, 201);
+}
+
+.historia {
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
 
 /* FIN MAIN QUIENES SOMOS */
 
 /* MAIN TRABAJO*/
-#curriculum{
+#curriculum {
     color: rgb(214, 214, 210);
 }
 
