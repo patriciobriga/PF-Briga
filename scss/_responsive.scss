@@ -1,0 +1,92 @@
+/* media queries */
+
+@media screen and (max-width: 758px) {
+    .chef {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+
+    .desplegable h3 {
+        font-size: 3rem;
+    }
+
+    .patz-inicio {
+        font-size: 5px;
+    }
+
+
+    .chef img {
+        height: 400px;
+        width: 300px;
+        margin-top: 0;
+    }
+
+    .chef-p {
+        padding: 0 10px;
+    }
+
+    video {
+        height: 800px;
+
+    }
+
+    .link-menu h2 {
+        font-size: 3rem;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        font-family: 'Bebas Neue', sans-serif;
+        text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.62);
+        margin-top: 100px;
+    }
+
+    .link-menu p {
+        display: none;
+    }
+
+    .formu {
+        margin: 0 20px;
+    }
+
+    .sucursal {
+        padding: 40px;
+    }
+
+    @keyframes show {
+        from {
+            opacity: 0;
+            scale: 45%;
+
+        }
+
+        to {
+            opacity: 1;
+            scale: 100%;
+        }
+    }
+
+    .chef-container,
+    .pedidos-container,
+    .trabajo-container,
+    .cumple-container,
+    .parrilla-container,
+    .gif-container {
+        view-timeline-name: --image;
+        view-timeline-axis: block;
+        animation-timeline: --image;
+        animation-name: show;
+        animation-range: entry 20% cover 50%;
+        animation-fill-mode: both;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .link-menu {
+        margin-top: 100px;
+    }
+}
+
+/* fin media queries */
