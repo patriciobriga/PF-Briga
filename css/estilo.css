@@ -8,7 +8,7 @@
 
 ::selection {
   color: rgb(255, 230, 0);
-  background: rgb(43, 43, 42) 0;
+  background: #000000;
 }
 
 /* MAIN INDEX*/
@@ -46,7 +46,7 @@ video {
 .link-menu h1 {
   font-size: 6rem;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-weight: 700;
   font-family: "Bebas Neue", sans-serif;
   text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.62);
@@ -54,7 +54,7 @@ video {
 .link-menu p {
   font-size: 2.5rem;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-family: "Bebas Neue", sans-serif;
   text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.62);
 }
@@ -63,7 +63,7 @@ video {
 }
 .link-menu button {
   padding: 15px 60px;
-  background: rgb(5, 5, 5);
+  background: #000000;
   border: 2px solid #ffff00;
   font-size: 20px;
   font-weight: bold;
@@ -76,7 +76,7 @@ video {
   transition: all 0.5s;
 }
 .link-menu button:hover {
-  color: #0c071e;
+  color: #000000;
   font-weight: bold;
   opacity: 90%;
 }
@@ -263,7 +263,7 @@ video {
 .burger-menu .carta a {
   font-weight: 500;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #fff;
   background-color: rgb(0, 128, 0);
   padding: 10px 15px;
   border-radius: 8px;
@@ -327,7 +327,7 @@ video {
 .burger-menu-entradas .carta a {
   font-weight: 500;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #fff;
   background-color: rgb(0, 128, 0);
   padding: 10px 15px;
   border-radius: 8px;
@@ -352,7 +352,7 @@ video {
 }
 
 .fondo-local {
-  background-color: rgb(0, 0, 0);
+  background-color: #000000;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%231B001B' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%233A003A'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
   border-radius: 5px;
   margin-top: 100px;
@@ -366,7 +366,7 @@ video {
 .texto-local {
   font-family: "Bebas Neue", sans-serif;
   font-size: 2rem;
-  color: rgb(207, 201, 201);
+  color: #fff;
 }
 
 .historia {
@@ -378,11 +378,11 @@ video {
 /* FIN MAIN QUIENES SOMOS */
 /* MAIN TRABAJO*/
 #curriculum {
-  color: rgb(214, 214, 210);
+  color: #fff;
 }
 
 .oferta-trabajo {
-  background-color: #fafafa;
+  background-color: #fff;
 }
 
 .oferta-trabajo-p {
@@ -410,7 +410,7 @@ video {
 /* FIN MAIN TRABAJO */
 /* MAIN SUCURSALES */
 .encontranos {
-  color: rgb(255, 255, 255);
+  color: #fff;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -431,9 +431,9 @@ video {
 }
 
 .carta-sucursal {
-  border: solid 1px rgb(0, 0, 0);
+  border: solid 1px #000000;
   padding: 50px;
-  color: rgb(255, 255, 255);
+  color: #fff;
   background-image: linear-gradient(to left, rgba(80, 79, 79, 0.1098039216) 0%, rgba(0, 0, 0, 0.637) 100%);
   border-radius: 10px;
   box-shadow: 0px 0px 28px 5px rgba(24, 24, 24, 0.51);
@@ -485,21 +485,21 @@ video {
   font-size: 2rem;
 }
 .nav-item a:hover {
+  text-decoration: none;
   color: rgb(245, 215, 46);
   transform: scale(1.03);
   transition: all 0.4s ease;
-  text-decoration: none;
 }
 
 .patz {
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-family: "Bebas Neue", sans-serif;
   font-size: 2.6rem;
   font-weight: bold;
 }
 
 .patz-inicio {
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-family: "Bebas Neue", sans-serif;
   font-size: 3rem;
   font-weight: bold;
@@ -539,7 +539,7 @@ video {
 }
 .wrapper .icon {
   position: relative;
-  background: #0f0f0f;
+  background: #000000;
   border-radius: 50%;
   margin: 10px;
   width: 50px;
@@ -554,7 +554,7 @@ video {
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .wrapper .icon i {
-  color: white;
+  color: #fff;
 }
 .wrapper .tooltip {
   position: absolute;
@@ -655,7 +655,7 @@ video {
   .link-menu h2 {
     font-size: 3rem;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-weight: 700;
     font-family: "Bebas Neue", sans-serif;
     text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.62);

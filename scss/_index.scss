@@ -1,7 +1,7 @@
 /* MAIN INDEX*/
 
 .body-index {
-    background: #000000;
+    background: $color-negro;
 }
 
 #inicio {
@@ -34,7 +34,7 @@ video {
     h1 {
         font-size: 6rem;
         text-align: center;
-        color: rgb(255, 255, 255);
+        color: $color-blanco;
         font-weight: 700;
         font-family: 'Bebas Neue', sans-serif;
         text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.62);
@@ -43,7 +43,7 @@ video {
     p {
         font-size: 2.5rem;
         text-align: center;
-        color: rgb(255, 255, 255);
+        color: $color-blanco;
         font-family: 'Bebas Neue', sans-serif;
         text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.62);
     }
@@ -54,7 +54,7 @@ video {
 
     button {
         padding: 15px 60px;
-        background: rgb(5, 5, 5);
+        background: $color-negro;
         border: 2px solid #ffff00;
         font-size: 20px;
         font-weight: bold;
@@ -67,7 +67,7 @@ video {
         transition: all 0.5s;
 
         &:hover {
-            color: #0c071e;
+            color: $color-negro;
             font-weight: bold;
             opacity: 90%;
         }
