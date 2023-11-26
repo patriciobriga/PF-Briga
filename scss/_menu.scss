@@ -37,9 +37,9 @@
 
         &:hover {
             transform: translatey(-4px);
-            box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.39);
-            -webkit-box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.39);
-            -moz-box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.39);
+            box-shadow: 2px 10px 30px 0 rgba(0, 0, 0, 0.39);
+            -webkit-box-shadow: 2px 10px 30px 0 rgba(0, 0, 0, 0.39);
+            -moz-box-shadow: 2px 10px 30px 0 rgba(0, 0, 0, 0.39);
         }
 
         img {
@@ -92,7 +92,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    margin-top: 0px;
+    margin-top: 0;
 
     .carta {
         width: 230px;
@@ -106,9 +106,9 @@
 
         &:hover {
             transform: translatey(-4px);
-            box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.39);
-            -webkit-box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.39);
-            -moz-box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.39);
+            box-shadow: 2px 10px 30px 0 rgba(0, 0, 0, 0.39);
+            -webkit-box-shadow: 2px 10px 30px 0 rgba(0, 0, 0, 0.39);
+            -moz-box-shadow: 2px 10px 30px 0 rgba(0, 0, 0, 0.39);
         }
 
         img {
