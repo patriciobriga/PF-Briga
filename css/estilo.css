@@ -200,6 +200,12 @@ video {
   margin-bottom: 150px;
 }
 
+.titulo-parrilla{
+    margin-top: 10px;
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
 /* MAIN BURGUERS */
 .menu-completo {
   margin-bottom: 150px;
@@ -697,6 +703,13 @@ video {
 @media screen and (max-width: 720px) {
   .link-menu {
     margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 345px){
+  .link-menu h1{
+    font-size: 80px;
+    margin-top: 150px;
   }
 }
 /* fin media queries */
